@@ -104,11 +104,10 @@ header { margin-bottom: 28px; }
   gap: 14px;
 }
 .brand-icon {
-  width: 56px;
-  height: 56px;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
-  border-radius: 14px;
-  box-shadow: var(--shadow);
+  border-radius: 8px;
 }
 footer {
   margin-top: 36px;
