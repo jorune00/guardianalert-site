@@ -10,7 +10,12 @@
 <body>
   <main class="container">
     <header>
-      <span class="badge">Guardian Alert</span>
+      <div class="brand">
+        <img class="brand-icon" src="icon.png" alt="Guardian Alert shield icon" />
+        <div>
+          <span class="badge">Guardian Alert</span>
+        </div>
+      </div>
     </header>
 
     <section class="card hero">
@@ -23,6 +28,12 @@
         <p>
           Set a schedule, check in before your timer runs out, and let trusted
           contacts receive alerts if a check-in is missed.
+        </p>
+        <p>
+          Alerts are triggered by the backend based on your saved schedule, so
+          they can still go out even if your phone is off, out of battery, out
+          of service, or the app is no longer open — as long as the schedule
+          was already created and the backend remains active.
         </p>
 
         <div class="actions">
@@ -40,6 +51,7 @@
           <li>Tap <strong>I’m okay</strong> before time runs out</li>
           <li>Add trusted contacts</li>
           <li>Escalate alerts over time if a check-in is missed</li>
+          <li>Backend monitoring keeps schedules active even if your phone goes offline</li>
         </ul>
       </div>
 

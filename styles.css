@@ -98,6 +98,18 @@ p { margin: 0 0 16px; color: var(--muted); }
 ul { padding-left: 20px; color: var(--muted); }
 a { color: var(--accent); }
 header { margin-bottom: 28px; }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.brand-icon {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
 footer {
   margin-top: 36px;
   color: var(--muted);
