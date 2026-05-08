@@ -139,6 +139,17 @@ p { margin: 0 0 16px; color: var(--muted); }
   background: rgba(103, 183, 255, 0.10);
   color: var(--text);
   font-weight: 700;
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+.platform-badge:hover,
+.platform-badge:focus-visible {
+  background: rgba(103, 183, 255, 0.18);
+  border-color: rgba(103, 183, 255, 0.45);
+  transform: translateY(-1px);
+}
+.platform-contact {
+  margin-bottom: 0;
 }
 .platform-icon {
   display: inline-block;
