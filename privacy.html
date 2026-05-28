@@ -39,7 +39,7 @@
       <ul>
         <li>Provide scheduled safety check-in functionality</li>
         <li>Send alert emails when a user misses a check-in</li>
-        <li>Send optional SMS text alerts and SMS consent messages when SMS alerts are enabled</li>
+        <li>Send optional SMS text alerts when SMS alerts are enabled and consent has been recorded</li>
         <li>Manage trusted contact consent</li>
         <li>Maintain app reliability, functionality, and security</li>
         <li>Improve the performance and usability of the service</li>
@@ -53,18 +53,19 @@
       <p>
         If SMS text alerts are enabled, SMS consent is handled separately from
         email consent. Trusted contacts must agree to receive Guardian Alert
-        SMS messages before SMS alerts are sent to them. A Guardian Alert user
-        may send a consent request to a trusted contact, and SMS alerts are not
-        activated for that contact unless the contact affirmatively opts in.
+        SMS messages before SMS alerts are sent to them. SMS alerts are not
+        activated for a trusted contact unless the contact affirmatively opts
+        in through a supported consent process, such as a Guardian Alert
+        consent page or an opt-in keyword if text-based opt-in is supported.
         Contacts can opt out of SMS alerts by replying STOP and can request
         help by replying HELP. Message and data rates may apply.
       </p>
       <p>
-        If a contact opts out of SMS alerts, the user may need to send a new
-        consent request before SMS alerts can resume for that contact. SMS
-        opt-out does not necessarily unsubscribe the contact from email alerts,
-        and email consent does not automatically opt the contact into SMS
-        alerts.
+        If a contact opts out of SMS alerts, SMS alerts will not resume for
+        that contact unless the contact affirmatively opts in again through a
+        supported consent process. SMS opt-out does not necessarily unsubscribe
+        the contact from email alerts, and email consent does not automatically
+        opt the contact into SMS alerts.
       </p>
 
       <h2>Sharing of Information</h2>
